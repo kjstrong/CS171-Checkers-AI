@@ -1,0 +1,4 @@
+# CS-171 Checkers A.I
+
+A Checkers A.I. created to play against real human opponents as well as other A.I's. It uses a minimax algorithm with alpha beta pruning in order to search several layers of the game tree. To make sure that the A.I. didn't take too long to make a move each turn, the algorithm used a dynamic depth limit where the A.I. would search the game tree either deeper or shallower depending on the state of the game. A set of heuristics were created to allow the A.I. to make better decisions. These heuristics include the amount of pieces each player has, the amount of kings each player has, the position of pieces on the board, and whether a piece was in danger of being taken. The evaluation function would then combine these heuristics with different weights to form a numeric value of each game state in the game tree. 
+
